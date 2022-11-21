@@ -1,0 +1,15 @@
+div {
+    margin: 250px 150px;
+}
+
+form {
+    max-width: 570px;
+    padding: 20px;
+    margin: 15px auto;
+    background-color: rgba(57, 118, 162, 0.607);
+    border-radius: 25px;
+}
+
+form button {
+    margin-top: 15px;
+}

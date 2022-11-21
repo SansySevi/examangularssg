@@ -1,0 +1,17 @@
+<div>
+    <form #loginForm="ngForm">
+        <label class="form-label">
+            Usuario: 
+        </label>
+        <input class="form-control" type="text" name="cajausuario" #cajausuario />
+
+        <label class="form-label">
+            Password: 
+        </label>
+        <input class="form-control" type="password" name="cajapassword" #cajapassword />
+
+        <button class="btn btn-secondary" (click)="log()">
+            Login
+        </button>
+    </form>
+</div>

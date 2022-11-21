@@ -1,0 +1,18 @@
+<div>
+    <table class="table" *ngIf="compras">
+        <thead>
+            <tr>
+                <th>Pedido</th>
+                <th>Usuario</th>
+                <th>Cubo</th>
+            </tr>
+        </thead>
+        <tbody class="table-group-divider">
+            <tr *ngFor="let compra of compras">
+                <td> {{compra.idPedido}} </td>
+                <td> {{compra.idUsuario}} </td>
+                <td> {{compra.idCubo}} </td>
+            </tr>
+        </tbody>
+    </table>
+</div>

@@ -1,0 +1,16 @@
+<div>
+    <div>
+        <form #registerForm="ngForm">
+            <h1>Mi perfil</h1>
+            <label class="form-label">
+                Nombre: 
+            </label>
+            <input class="form-control" type="text" name="cajaname" #cajaname [value]="[usuario.nombre]" disabled/>
+    
+            <label class="form-label">
+                Email: 
+            </label>
+            <input class="form-control" type="text" name="cajamail" #cajamail [value]="[usuario.email]" disabled/>
+        </form>
+    </div>
+</div>
